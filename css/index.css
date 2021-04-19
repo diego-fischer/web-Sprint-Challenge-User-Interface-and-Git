@@ -316,3 +316,39 @@ footer nav a {
 #box10 {
   background-color: dodgerblue;
 }
+
+.container about-page {
+  margin-bottom: 20px;
+}
+
+.learnMoreSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.learnMoreBlocks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 45%;
+  margin-bottom: 40px;
+  border-bottom: 1px dotted black;
+}
+
+.aboutSection {
+  margin-bottom: 20px;
+  border-bottom: 1px dotted black;
+}
+
+.learnMoreBtn {
+  width: 30%;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  padding: 2px 10px 2px 10px;
+  margin: 10px 0 10px 0;
+}
